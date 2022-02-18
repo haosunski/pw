@@ -67,6 +67,7 @@ p {
   background-color: #EAF6F6;
   position: relative;
   padding-top: 150px;
+  height: calc(100vh - 150px);
 }
 
 .bottom-container {
