@@ -68,6 +68,15 @@ p {
   position: relative;
   padding-top: 150px;
   height: calc(100vh - 150px);
+  min-height: 655px;
+  position: relative;
+}
+
+.topContainer img:last-child {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-40%, 0);
 }
 
 .bottom-container {
