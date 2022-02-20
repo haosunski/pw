@@ -72,6 +72,12 @@ p {
   position: relative;
 }
 
+@media (max-width:991px) {
+  .topContainer {
+    height: auto
+  }
+}
+
 .topContainer img:last-child {
   position: absolute;
   bottom: 20px;
